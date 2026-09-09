@@ -1,0 +1,4 @@
+A Thunk is basically a function that can run asynchronous logic (like fetching API)
+and then dispatch actions to update the Redux store after the data is ready.
+
+Think of it like a middle layer between your React UI and your Redux store.
