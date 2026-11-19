@@ -107,7 +107,9 @@ function App() {
       path: "*",
       element: <Error404 />
     }
-  ]);
+  ], {
+    basename: import.meta.env.BASE_URL.replace(/\/$/, ''),
+  });
 
   return (
     <div className="overflow-x-hidden bg-white-100 bg-cover bg-center bg-no-repeat w-screen h-screen">
